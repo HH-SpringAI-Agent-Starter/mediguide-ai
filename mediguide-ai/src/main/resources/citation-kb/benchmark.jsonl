@@ -1,0 +1,5 @@
+{"capability": "支持药品说明书 RAG", "metric": "supported", "value": "yes", "evidence_source_keys": ["drug-label"]}
+{"capability": "支持禁忌和红旗提示", "metric": "supported", "value": "yes", "evidence_source_keys": ["drug-label"]}
+{"capability": "输出医疗免责声明", "metric": "supported", "value": "yes", "evidence_source_keys": ["drug-label"]}
+{"capability": "支持人工复核队列", "metric": "supported", "value": "yes", "evidence_source_keys": ["drug-label"]}
+{"capability": "企业版支持医院内网知识库", "metric": "supported", "value": "yes", "evidence_source_keys": ["drug-label"]}

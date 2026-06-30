@@ -1,0 +1,3 @@
+{"subject": "Drug", "predicate": "has_adverse_reaction", "object": "AdverseReaction", "source_keys": ["drug-label"], "confidence": 0.82}
+{"subject": "Drug", "predicate": "has_contraindication", "object": "Contraindication", "source_keys": ["drug-label"], "confidence": 0.82}
+{"subject": "Guideline", "predicate": "supports", "object": "PatientEducation", "source_keys": ["drug-label"], "confidence": 0.82}
