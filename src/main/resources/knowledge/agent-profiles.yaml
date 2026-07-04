@@ -1,0 +1,31 @@
+mediguide:
+  symptom_triage:
+    name: "症状分诊助手"
+    description: "对患者症状进行初步评估和紧急程度分级"
+    examples:
+      - "头痛发热三天，体温38.5度"
+      - "突然胸痛，伴有呼吸困难"
+      - "打喷嚏流鼻涕，轻微咳嗽"
+
+  medication_guide:
+    name: "用药指导助手"
+    description: "药品信息查询、药物相互作用检查"
+    examples:
+      - "二甲双胍的用法和注意事项"
+      - "我同时在吃华法林和阿司匹林，有风险吗"
+      - "降压药能不能和感冒药一起吃"
+
+  health_summary:
+    name: "健康摘要助手"
+    description: "生成结构化健康摘要，趋势分析"
+    examples:
+      - "帮我总结这周的健康数据"
+      - "血压最近两周的变化趋势"
+
+  chronic_care:
+    name: "慢病管理助手"
+    description: "慢病管理指南、生活方式建议、监测提醒"
+    examples:
+      - "糖尿病患者的日常注意事项"
+      - "高血压患者冬天应该注意什么"
+      - "COPD的呼吸康复训练"

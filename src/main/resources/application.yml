@@ -1,0 +1,39 @@
+spring.application.name=mediguide-ai
+
+# Ollama (default)
+spring.ai.ollama.base-url=http://localhost:11434
+spring.ai.ollama.chat.model=qwen2.5:7b
+spring.ai.ollama.embedding.model=bge-m3:latest
+
+# Optional: OpenAI
+# spring.ai.openai.api-key=${OPENAI_API_KEY}
+# spring.ai.openai.chat.model=gpt-4o
+
+# Database
+spring.datasource.url=jdbc:postgresql://localhost:5432/mediguide
+spring.datasource.username=mediguide
+spring.datasource.password=mediguide123
+spring.datasource.driver-class-name=org.postgresql.Driver
+
+# JPA
+spring.jpa.hibernate.ddl-auto=validate
+spring.jpa.show-sql=false
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+
+# Flyway
+spring.flyway.enabled=true
+spring.flyway.locations=classpath:db/migration
+
+# PGVector
+spring.ai.vectorstore.pgvector.dimensions=1536
+spring.ai.vectorstore.pgvector.distance-type=COSINE_DISTANCE
+
+# Redis
+spring.data.redis.host=localhost
+spring.data.redis.port=6379
+
+# Seed knowledge on startup
+mediguide.seed-knowledge=true
+
+# Server
+server.port=8083
