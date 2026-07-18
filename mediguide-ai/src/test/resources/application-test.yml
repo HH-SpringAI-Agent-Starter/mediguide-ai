@@ -1,0 +1,19 @@
+spring:
+  ai:
+    ollama:
+      base-url: http://localhost:11434
+      chat:
+        model: qwen2.5:7b
+      embedding:
+        model: bge-m3:latest
+    vectorstore:
+      pgvector:
+        initialize-schema: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/mediguide_test
+    username: medicare
+    password: medicare_test
+  flyway:
+    enabled: false
+server:
+  port: 0
