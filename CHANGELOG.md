@@ -1,3 +1,9 @@
+## [0.0.3] - 2026-07-25
+
+### Added
+- :construction_worker: **GitHub Actions CI** — Maven build workflow (compile + test + package)
+- :wrench: **Dependency maintenance** — 2026-07-25 project health check
+
 # Changelog
 
 All notable changes to this project will be documented in this file.
