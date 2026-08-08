@@ -1,3 +1,11 @@
+## [0.0.4] - 2026-08-08
+
+### Removed
+- :broom: **Legacy `mediguide-ai/` subdirectory** — deleted the old `com.agentstack` skeleton (32 files: duplicate pom.xml, docker-compose.yml, docs/, .github/, and `src/main/java/com/agentstack/mediguide/**`) that was superseded by the root-level `com.springai.mediguide` multi-agent implementation. Root `pom.xml` (groupId `com.springai`) is now the single source of truth.
+
+### Fixed
+- :wrench: Eliminated duplicate project structure (two pom.xml / two application configs) which confused IDE import and CI resolution.
+
 ## [0.0.3] - 2026-07-25
 
 ### Added
