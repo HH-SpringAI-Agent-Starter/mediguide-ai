@@ -1,3 +1,17 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/),
+and this project adheres to [Semantic Versioning](https://semver.org/).
+
+## [0.0.5] - 2026-09-18
+
+### Added
+- :shield: **SECURITY.md** — vulnerability reporting policy, supported versions, coordinated disclosure
+- :handshake: **CODE_OF_CONDUCT.md** — Contributor Covenant v2.1, community standards and enforcement
+- :white_check_mark: **Weekly rotation maintenance (2026-09-18)** — docs alignment with org standard
+
 ## [0.0.4] - 2026-08-08
 
 ### Removed
